@@ -2,8 +2,8 @@ name: Create Repo
 on: 
   workflow_dispatch:
     inputs:
-      repo-name: samplerepo2
-        description: 'Name of the repository to be created'
+      repo-name:
+        description: 'samplerepo2'
         required: true
         default: ''
 
